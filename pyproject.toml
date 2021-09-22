@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "squash"
+version = "0.1.0"
+description = ""
+authors = ["Brantley Harris"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.68.1"
+black = "^21.9b0"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
